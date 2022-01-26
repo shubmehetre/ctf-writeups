@@ -11,8 +11,8 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 ## Solution
 
 - uniq -u gives lines that are unique in a file. uniq can take piped output as arguments
-- But the file has to be sorted so we use sort and then pipe it to uniq
 
 ```
 sort data.txt | uniq -u
 ```
+- But the file has to be sorted so we use sort and then pipe it to uniq
