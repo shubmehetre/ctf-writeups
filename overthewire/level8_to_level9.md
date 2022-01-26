@@ -17,3 +17,4 @@ sort data.txt | uniq -u
 - uniq -u gives lines that are unique in a file.
 - But the file has to be sorted so we use sort and then pipe it to uniq
 - uniq can take piped output as arguments
+- what is this
