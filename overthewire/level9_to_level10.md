@@ -16,6 +16,11 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 strings data.txt | grep '==='
 ```
 
+# Login to next box
+```
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+```
+
 Password to Level 10
 ```
 truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk

@@ -40,6 +40,11 @@ Do above stuff alot of times. In end you will get a ASCII file
 cat file
 ```
 
+# Login to next box
+```
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+```
+
 Password for Level 13
 ```
 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL

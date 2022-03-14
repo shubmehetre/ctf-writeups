@@ -14,6 +14,11 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 base64 -d data.txt
 ```
 
+# Login to next box
+```
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+```
+
 Password for Level 11
 ```
 IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR

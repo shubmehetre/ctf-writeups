@@ -16,3 +16,8 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 sort data.txt | uniq -u
 ```
 - But the file has to be sorted so we use sort and then pipe it to uniq
+
+# Login to next box
+```
+ssh bandit14@bandit.labs.overthewire.org -p 2220
+```

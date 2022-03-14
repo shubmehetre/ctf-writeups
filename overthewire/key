@@ -1,39 +1,3 @@
-# Bandit Level 13 → Level 14
-
-## Level Goal
-
-The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on
-
-## Commands you may need to solve this level
-
-ssh, telnet, nc, openssl, s_client, nmap
-
-## Solution
-
-Copy bandit14 key
-```
-cat sshkey.private
-```
-
-Copy this key. Exit bandit13.
-save this key in a file. Ex. bandit14_key
-
-Modify permissions
-```
-chmod 400 bandit14_key
-```
-
-Login to bandit14 using key not password
-```
-ssh bandit14@bandit.labs.overthewire.org -p 2220 -i bandit14_key
-```
-Password
-```
-4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
-```
-
-Private key
-```
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAxkkOE83W2cOT7IWhFc9aPaaQmQDdgzuXCv+ppZHa++buSkN+
 gg0tcr7Fw8NLGa5+Uzec2rEg0WmeevB13AIoYp0MZyETq46t+jk9puNwZwIt9XgB
@@ -61,4 +25,3 @@ qT1EvQKBgQDKm8ws2ByvSUVs9GjTilCajFqLJ0eVYzRPaY6f++Gv/UVfAPV4c+S0
 kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
 /+aLoRQ0yBDRbdXMsZN/jvY44eM+xRLdRVyMmdPtP8belRi2E2aEzA==
 -----END RSA PRIVATE KEY-----
-```

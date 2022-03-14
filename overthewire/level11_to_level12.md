@@ -1,6 +1,6 @@
 # Bandit Level 11 → Level 12
 
-## Level Goal
+## Level Goalll
 
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 
@@ -12,6 +12,11 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 ```
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```
+
+# Login to next box
+```
+ssh bandit12@bandit.labs.overthewire.org -p 2220
 ```
 
 Password for Level 12
